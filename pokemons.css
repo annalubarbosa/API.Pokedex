@@ -12,12 +12,19 @@
     margin: 20px;
     list-style: none ;
 }
+body{
+    position: absolute;
+    background-image: url(../assets/all-pokemon.jpg);
+    backdrop-filter:  blur(4px);
+}
 h3{
     margin: 40px;
-    display: flex;
-    justify-content: center;
-    font-size: 150px;
-
+    font-size: 40px;
+    font-family: 'Pokemon Solid', sans-serif;
+     display: flex;      
+     justify-content: center;
+     font-size: 100px;
+     color: #fdc500;
 }
 .pokemon{
     background-color: #78c850;
@@ -88,4 +95,5 @@ h3{
 }
 .fairy{
     background-color: pink;
+
 }
